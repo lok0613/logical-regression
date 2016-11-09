@@ -1,12 +1,12 @@
 var theta = [0, 0, 0],
-	stepSize = 0.0005,
+	stepSize = 0.001,
 	trainingData = [
-		[1, 55, 130, 0],
-		[1, 58, 160, 1],
-		[1, 62, 148, 0],
-		[1, 67, 186, 1]
+		[1, 22, 12, 0],
+		[1, 28, 24, 1],
+		[1, 32, 18, 0],
+		[1, 35, 33, 1]
 	],
-	numOfIteration = 3;
+	numOfIteration = 2;
 
 var iterations = function(theta, stepSize, trainingData) {
 	var newTheta = [],
